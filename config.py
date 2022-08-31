@@ -3,8 +3,8 @@ import albumentations as A
 from albumentations.pytorch import ToTensorV2
 
 DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
-TRAIN_DIR = "datasets/facades/train"
-VAL_DIR = "datasets/facades/val"
+TRAIN_DIR = "datasets/maps/train"
+VAL_DIR = "datasets/maps/val"
 LEARNING_RATE = 2e-4
 BATCH_SIZE = 16
 NUM_WORKERS = 2
